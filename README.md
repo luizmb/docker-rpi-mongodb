@@ -2,6 +2,9 @@ MongoDb docker container for Raspberry Pi (tested on RPi 3 with Raspbian Jessie)
 
 To create your image and a container
 
+0) If you're not using the Raspberry Pi image with Docker preinstalled ([http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/]), you want to follow this tutorial first:
+http://blog.hypriot.com/post/run-docker-rpi3-with-wifi/
+
 1) Log into RPi
 ```bash
 ssh pi@raspberrypi.local

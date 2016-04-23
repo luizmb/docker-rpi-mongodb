@@ -1,6 +1,7 @@
 MongoDb docker container for Raspberry Pi (tested on RPi 3 with Raspbian Jessie)
 
 To create your image and a container
+
 1) Log into RPi
 ```bash
 ssh pi@raspberrypi.local
@@ -57,6 +58,7 @@ mongo
 ```
 
 **IMPORTANT!!!**
+
 Do not stop or kill the container, your mongodb will be interrupted and next time won't work unless you delete the lock file:
 ```bash
 rm /home/pi/docker/mongodb/data/mongodb/mongod.lock 
